@@ -6,12 +6,13 @@ import random
 import re
 import sys
 
-#
-# Complete the 'birthdayCakeCandles' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER_ARRAY candles as parameter.
-#
+""" Project Description:
+You are in charge of the cake for a child's birthday. It will have one candle for each year of their total age.
+They will only be able to blow out the tallest of the candles. Your task is to count how many candles are the tallest.
+Example:
+candles = [4, 4, 1, 3]
+The tallest candles are 4 units high. There are 2 candles with this height, so the function should return 2.
+"""
 
 def birthdayCakeCandles(candles):
     # Write your code here
