@@ -6,15 +6,13 @@ import random
 import re
 import sys
 
-#
-# Complete the 'divisibleSumPairs' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER n
-#  2. INTEGER k
-#  3. INTEGER_ARRAY ar
-#
+""" Problem Description:
+Given an array of integers and a positive integer k, determine the number of (i, j) pairs where i < j and arr[i] + arr[j] is divisible by k.
+Example - 
+arr = [1, 2, 3, 4, 5, 6]
+k = 5
+Three pairs meet the criteria: [1, 2], [2, 3], and [4, 6].
+"""
 
 def divisibleSumPairs(n, k, ar):
     # Write your code here
