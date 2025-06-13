@@ -16,23 +16,26 @@ If Brian calculates the bill correctly,  Anna will pay (2 + 4) / 2 = 3. If he in
 In the second case, he should refund 3 to Anna.
 """
 
-def dayOfProgrammer(year):
+def bonAppetit(bill, k, b):
     # Write your code here
-    if year == 1918:
-        return "26.09.1918"
-    elif (year < 1918 and year % 4 == 0) or \
-         (year > 1918 and (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0))):
-        return f"12.09.{year}"
-    else:
-        return f"13.09.{year}"
+    rest_items = sum(bill[:k]) + sum(bill[k+1:])
+    actual_bill = rest_items // 2
+    if actual_bill < b:
+        print(b - actual_bill)
+    elif actual_bill == b:
+        print("Bon Appetit")
+        
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    first_multiple_input = input().rstrip().split()
 
-    year = int(input().strip())
+    n = int(first_multiple_input[0])
 
-    result = dayOfProgrammer(year)
+    k = int(first_multiple_input[1])
 
-    fptr.write(result + '\n')
+    bill = list(map(int, input().rstrip().split()))
 
-    fptr.close()
+    b = int(input().strip())
+
+    bonAppetit(bill, k, b)
+
