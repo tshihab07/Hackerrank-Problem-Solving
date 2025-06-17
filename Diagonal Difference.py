@@ -22,11 +22,10 @@ Their absolute difference is | 15 - 17 | = 2.
 def diagonalDifference(arr):
     left_sum = 0
     right_sum = 0
-    array_size = len(arr)
     n = len(arr)
-    for i in range(array_size):
+    for i in range(len(arr)):
         n -= 1
-        for j in range(array_size):
+        for j in range(len(arr)):
             if i == j:
                 left_sum += arr[i][j]
             if n == j:
