@@ -13,7 +13,6 @@ Three pairs meet the criteria: [1, 2], [2, 3], and [4, 6].
 """
 
 def divisibleSumPairs(n, k, ar):
-    # Write your code here
     count = 0
     for i in range(n):
         for j in range(i+1, n):
