@@ -15,7 +15,7 @@ In the second case, he should refund 3 to Anna.
 """
 
 def bonAppetit(bill, k, b):
-    # Write your code here
+    
     rest_items = sum(bill[:k]) + sum(bill[k+1:])
     actual_bill = rest_items // 2
     if actual_bill < b:
