@@ -12,14 +12,13 @@ Example -
 arr = [5, 6, 8, 11]
 8 is between two subarrays that sum to 11.
 arr[1]
-the ans is [1] since left and right sum is 0.
+The ans is [1] since the left and right sums are 0.
 You will be given arrays of integers and must determine whether there is an element that meets the criterion.
 If there is, return YES. Otherwise, return NO.
 
 """
 
 def balancedSums(arr):
-    # Write your code here
     left_sum = 0
     arr_sum = sum(arr)
     

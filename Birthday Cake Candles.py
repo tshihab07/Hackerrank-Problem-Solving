@@ -13,7 +13,6 @@ The tallest candles are 4 units high. There are 2 candles with this height, so t
 """
 
 def birthdayCakeCandles(candles):
-    # Write your code here
     tall_candle = max(candles)
     return candles.count(tall_candle)
 
