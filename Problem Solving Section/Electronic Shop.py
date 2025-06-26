@@ -1,7 +1,6 @@
 #!/bin/python3
 
 import os
-import sys
 
 """ Problem Description:
 A person wants to determine the most expensive computer keyboard and USB drive that can be purchased with a give budget.
