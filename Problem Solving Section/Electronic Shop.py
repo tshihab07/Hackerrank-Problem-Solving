@@ -3,9 +3,20 @@
 import os
 import sys
 
-#
-# Complete the getMoneySpent function below.
-#
+""" Problem Description:
+A person wants to determine the most expensive computer keyboard and USB drive that can be purchased with a give budget.
+Given price lists for keyboards and USB drives and a budget, find the cost to buy them.
+If it is not possible to buy both items, return -1.
+
+Example:
+b = 60
+keyboards = [40, 50, 60]
+drives = [5, 8, 12]
+The person can buy a 40 keyboards + 12 USB Drives = 52, or a 50 keyboards + 8 USB Drives.
+Choose the latter as the more expensive option and return 58.
+"""
+
+
 def getMoneySpent(keyboards, drives, b):
     # Write your code here.
 
