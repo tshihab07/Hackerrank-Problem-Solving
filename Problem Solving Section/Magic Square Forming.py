@@ -6,12 +6,16 @@ import random
 import re
 import sys
 
-#
-# Complete the 'formingMagicSquare' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts 2D_INTEGER_ARRAY s as parameter.
-#
+""" Problem Description:
+We define a magic square to be an n * n  matrix of distinct positive integers from 1 to n^2 
+where the sum of any row, column, or diagonal of length  is always equal to the same number: the magic constant. 
+
+You will be given a 3 * 3 matrix of s integers in the inclusive range [1, 9].
+We can convert any digit a to b any other digit  in the range [1, 9] at cost of |a-b|.
+Given , convert it into a magic square at minimal cost. Print this cost on a new line. 
+
+Note: The resulting magic square must contain distinct integers in the inclusive range [1, 9].
+"""
 
 def formingMagicSquare(s):
     # Write your code here
