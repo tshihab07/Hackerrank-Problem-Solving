@@ -1,10 +1,4 @@
-#!/bin/python3
-
-import math
 import os
-import random
-import re
-import sys
 
 """ Problem Description:
 A teacher asks the class to open their books to a page number.
