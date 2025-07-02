@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 """ Problem Description:
 Lily likes to play games with integers. She has created a new game where she determines the difference between a number and its reverse.
