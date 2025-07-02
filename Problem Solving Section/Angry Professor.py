@@ -7,7 +7,6 @@ import re
 import sys
 
 """ Problem Description:
-Angry Professor: Description
 A Discrete Mathematics professor has a class of students.
 Frustrated with their lack of discipline,
 the professor decides to cancel class if fewer than some number of students are present when class starts.
