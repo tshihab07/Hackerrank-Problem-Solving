@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 """ Problem Description:
 The Utopian Tree goes through 2 cycles of growth every year. Each spring, it doubles in height.
