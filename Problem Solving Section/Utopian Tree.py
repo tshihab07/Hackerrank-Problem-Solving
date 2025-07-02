@@ -7,7 +7,6 @@ import re
 import sys
 
 """ Problem Description:
-Utopian Tree: Description
 The Utopian Tree goes through 2 cycles of growth every year. Each spring, it doubles in height.
 Each summer, its height increases by 1 meter.
 
