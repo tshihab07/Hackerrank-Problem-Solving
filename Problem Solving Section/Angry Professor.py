@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 """ Problem Description:
 A Discrete Mathematics professor has a class of students.
