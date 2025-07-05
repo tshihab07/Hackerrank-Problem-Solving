@@ -1,0 +1,18 @@
+def is_valid_uid(uid):
+    if len(uid) != 10:
+        return False
+    if not uid.isalnum():
+        return False
+    if len(set(uid)) != len(uid):  # check for repetition
+        return False
+    if sum(c.isupper() for c in uid) < 2:
+        return False
+    if sum(c.isdigit() for c in uid) < 3:
+        return False
+    return True
+
+# Input reading
+n = int(input())
+for _ in range(n):
+    uid = input().strip()
+    print("Valid" if is_valid_uid(uid) else "Invalid")
