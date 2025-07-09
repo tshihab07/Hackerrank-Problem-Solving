@@ -6,12 +6,13 @@ import random
 import re
 import sys
 
-#
-# Complete the 'viralAdvertising' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER n as parameter.
-#
+""" Problem Description:
+HackerLand Enterprise is adopting a new viral advertising strategy.
+When they launch a new product, they advertise it to exactly 5 people on social media.
+Each person shares the advertisement with 3 of their friends on the next day. The process continues for a total of n days.
+
+The task is to determine the total number of likes the advertisement will receive after n days.
+"""
 
 def viralAdvertising(n):
     # Write your code here
