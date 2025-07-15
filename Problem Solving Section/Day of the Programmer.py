@@ -13,7 +13,8 @@ In the Julian calendar, leap years are divisible by 4; in the Gregorian calendar
 
 Divisible by 400.
 Divisible by 4 and not divisible by 100.
-Given a year, y, find the date of the 256th day of that year according to the official Russian calendar during that year. Then print it in the format
+Given a year, y, find the date of the 256th day of that year according to the official Russian calendar during that year.
+Then print it in the format
 
 """
 
