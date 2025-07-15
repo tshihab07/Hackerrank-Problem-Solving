@@ -39,9 +39,6 @@ def breakingRecords(scores):
 
     return [new_record_count, worst_record_count]
             
-            
-        
-        
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
