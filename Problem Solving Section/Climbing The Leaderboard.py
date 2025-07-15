@@ -1,8 +1,5 @@
-import math
 import os
-import random
-import re
-import sys
+
 
 """ Problem Description:
 An arcade game player wants to climb to the top of the leaderboard and track their ranking.
