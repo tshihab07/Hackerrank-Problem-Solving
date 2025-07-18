@@ -32,7 +32,7 @@ def diagonalDifference(arr):
                 right_sum += arr[i][j]
     
     return abs(left_sum - right_sum)
-    # Write your code here
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
