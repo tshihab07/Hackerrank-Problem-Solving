@@ -25,7 +25,6 @@ def gradingStudents(grades):
         final_list.append(grade)
     
     return final_list
-    # Write your code here
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
