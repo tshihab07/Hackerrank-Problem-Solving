@@ -15,8 +15,6 @@ Choose the latter as the more expensive option and return 58.
 
 
 def getMoneySpent(keyboards, drives, b):
-    # Write your code here.
-
     max_price = -1
     for k in keyboards:
         for d in drives:
