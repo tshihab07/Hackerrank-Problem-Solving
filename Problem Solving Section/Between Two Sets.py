@@ -48,7 +48,6 @@ def getTotalX(a, b):
             if flag2 == True:
                 count += 1
     
-    
     return count
 
 
