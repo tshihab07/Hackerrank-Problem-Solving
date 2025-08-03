@@ -15,7 +15,6 @@ The task is to determine the total number of likes the advertisement will receiv
 """
 
 def viralAdvertising(n):
-    # Write your code here
     shared = 5
     total_likes = 0
 
