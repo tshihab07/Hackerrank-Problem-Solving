@@ -6,18 +6,23 @@ import random
 import re
 import sys
 
-#
-# Complete the 'squares' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER a
-#  2. INTEGER b
-#
+""" Problem Description:
+Watson likes to challenge Sherlock's math ability.
+He will provide a starting and ending value that describe a range of integers, inclusive of the endpoints.
+Sherlock must determine the number of square integers within that range.
+Example:
+a = 24
+b = 49
+The square integers in this range are 25, 36, and 49. Return 3.
+"""
 
 def squares(a, b):
     # Write your code here
-    return math.floor(math.sqrt(b)) - math.ceil(math.sqrt(a)) + 1
+    smallest_perfect_square = math.ceil(math.sqrt(a))
+    largest_perfect_square = math.floor(math.sqrt(b))
+    total_perfect_square = largest_perfect_square - smallest_perfect_square + 1
+    
+    return  total_perfect_square
 
 
 if __name__ == '__main__':
