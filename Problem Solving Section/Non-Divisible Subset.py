@@ -6,14 +6,10 @@ import random
 import re
 import sys
 
-#
-# Complete the 'nonDivisibleSubset' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER k
-#  2. INTEGER_ARRAY s
-#
+""" Problem Description:
+Given a set of distinct integers, print the size of a maximal subset of S where the sum of any 2 numbers in 
+S' is not evenly divisible by k.
+"""
 
 def nonDivisibleSubset(k, s):
     # Write your code here
