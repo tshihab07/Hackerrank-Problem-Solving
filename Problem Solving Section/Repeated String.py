@@ -6,14 +6,16 @@ import random
 import re
 import sys
 
-#
-# Complete the 'repeatedString' function below.
-#
-# The function is expected to return a LONG_INTEGER.
-# The function accepts following parameters:
-#  1. STRING s
-#  2. LONG_INTEGER n
-#
+""" Problem Description:
+There is a string, s, of lowercase English letters that is repeated infinitely many times.
+Given an integer, n, find and print the number of letter a's in the first n letters of the infinite string.
+
+Example:
+s = 'abcac'
+n = 10
+The substring we consider is 'abcacabcac', which contains 4 occurrences of 'a'.
+The function should return 4.
+"""
 
 def repeatedString(s, n):
     # Write your code here
