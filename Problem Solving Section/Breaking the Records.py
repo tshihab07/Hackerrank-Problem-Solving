@@ -21,7 +21,6 @@ Given the scores for a season, determine the number of times Maria breaks her re
 """
 
 
-
 def breakingRecords(scores):
 
     highest_score = scores[0]
