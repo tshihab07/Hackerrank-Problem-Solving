@@ -15,6 +15,7 @@ Sherlock is to perform the rotation operation a number of times then determine t
 For each array, perform a number of right circular rotations and return the values of the elements at the given indices.
 """
 
+
 def circularArrayRotation(a, k, queries):
     # Write your code here
     n = len(a)
