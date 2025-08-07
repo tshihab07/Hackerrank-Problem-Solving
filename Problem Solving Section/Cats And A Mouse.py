@@ -21,7 +21,6 @@ If both cats reach the mouse at the same time, print Mouse C as the two cats fig
 
 """
 
-# Complete the catAndMouse function below.
 def catAndMouse(x, y, z):
     catA_distance = abs(z - x)
     catB_distance = abs(z - y)
