@@ -11,7 +11,7 @@ There will be two arrays of integers. Determine all integers that satisfy the fo
 - The integer being considered is a factor of all elements of the second array.
 These numbers are referred to as being between the two arrays. Determine how many such numbers exist.
 
-Example - 
+Example:
 a = [2, 6]
 b = [24, 36]
 
