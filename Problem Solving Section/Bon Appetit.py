@@ -18,8 +18,10 @@ def bonAppetit(bill, k, b):
     
     rest_items = sum(bill[:k]) + sum(bill[k+1:])
     actual_bill = rest_items // 2
+    
     if actual_bill < b:
         print(b - actual_bill)
+    
     elif actual_bill == b:
         print("Bon Appetit")
         
