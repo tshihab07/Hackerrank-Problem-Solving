@@ -30,8 +30,10 @@ def appendAndDelete(s, t, k):
     # Check if we can do it in k operations
     if k >= len(s) + len(t):
         return "Yes"
+    
     elif k >= total_ops and (k - total_ops) % 2 == 0:
         return "Yes"
+    
     else:
         return "No"
 
