@@ -13,7 +13,6 @@ The person can buy a 40 keyboards + 12 USB Drives = 52, or a 50 keyboards + 8 US
 Choose the latter as the more expensive option and return 58.
 """
 
-
 def getMoneySpent(keyboards, drives, b):
     max_price = -1
     for k in keyboards:
