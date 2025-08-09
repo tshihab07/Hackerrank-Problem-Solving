@@ -16,9 +16,7 @@ Calculate and print the factorial of a given integer.
 
 For example, if n = 30, we calculate
 
-
 30 * 29 * 28 * ..... * 2 * 1
-
 
 and get
 265252859812191058636308480000000.
