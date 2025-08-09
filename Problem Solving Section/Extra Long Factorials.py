@@ -8,19 +8,14 @@ import sys
 
 """ Problem Description: 
 The factorial of the integer n, written n!, is defined as:
-
 n! = n * (n - 1) * (n - 2) * .... * 3 * 2 * 1
-
-
 Calculate and print the factorial of a given integer.
 
 For example, if n = 30, we calculate
-
 30 * 29 * 28 * ..... * 2 * 1
 
 and get
 265252859812191058636308480000000.
-
 """
 
 def extraLongFactorials(n):
