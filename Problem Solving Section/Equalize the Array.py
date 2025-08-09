@@ -8,13 +8,6 @@ import sys
 from collections import Counter
 
 
-#
-# Complete the 'equalizeArray' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
-
 def equalizeArray(arr):
     # Write your code here
     freq = Counter(arr)             # Count each number's occurrences
