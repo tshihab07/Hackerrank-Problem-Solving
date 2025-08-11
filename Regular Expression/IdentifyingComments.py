@@ -11,17 +11,15 @@ Your program will be tested on source codes of not more than 200 lines.
 """
 
 import re
+import re
 import sys
 
-# Read all lines of input
 code = sys.stdin.read()
+comments = re.findall(r'//.*|/\*[\s\S]*?\*/', code)
 
-# Regex pattern to capture both single-line and multi-line comments
-pattern = r'//.*|/\*[\s\S]*?\*/'
-
-# Find all matches
-comments = re.findall(pattern, code)
-
-# Output each comment exactly as it appears
 for comment in comments:
-    print(comment)
+    if comment.startswith('//'):
+        print(comment)
+    else:
+        # Remove leading whitespace from each line of multi-line comment
+        print('\n'.join(line.lstrip() for line in comment.split('\n')))
