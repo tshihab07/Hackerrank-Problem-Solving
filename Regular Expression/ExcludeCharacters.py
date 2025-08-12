@@ -13,7 +13,7 @@ The task is to write a regex that will match S with following conditions:
 
 """
 
-Regex_Pattern = r'^[^\d][^aeiou][^bcDF][^\s][^AEIOU][^.,]$'	# Do not delete 'r'.
+Regex_Pattern = r'^[^\d][^aeiou][^bcDF][^\s][^AEIOU][^.,]$'
 
 import re
 
