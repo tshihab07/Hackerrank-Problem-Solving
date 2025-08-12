@@ -10,7 +10,7 @@ Write a RegEx that will match a string satisfying the following conditions:
 - The fifth character must be an uppercase English alphabetic character.
 """
 
-Regex_Pattern = r'^[a-z][1-9][^a-z][^A-Z][A-Z]'	# Do not delete 'r'.
+Regex_Pattern = r'^[a-z][1-9][^a-z][^A-Z][A-Z]'
 
 import re
 
