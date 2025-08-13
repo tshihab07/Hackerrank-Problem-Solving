@@ -6,17 +6,6 @@ import random
 import re
 import sys
 
-#
-# Complete the 'queensAttack' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER n
-#  2. INTEGER k
-#  3. INTEGER r_q
-#  4. INTEGER c_q
-#  5. 2D_INTEGER_ARRAY obstacles
-#
 
 def queensAttack(n, k, r_q, c_q, obstacles):
     # Write your code here
