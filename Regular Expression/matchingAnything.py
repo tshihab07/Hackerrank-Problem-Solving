@@ -3,7 +3,6 @@
 regex_pattern = r"^(.{3}\.?){4}$"    # Do not delete 'r'.
 
 import re
-import sys
 
 test_string = input()
 
