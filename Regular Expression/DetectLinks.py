@@ -1,9 +1,7 @@
 """ Title: Detect HTML links
 Problem Description:
 Charlie has been given an assignment by his Professor to strip the links and the text name from the html pages.
-A html link is of the form,
-
-<a href="http://www.hackerrank.com">HackerRank</a>  
+A html link is of the form, <a href="http://www.hackerrank.com">HackerRank</a>  
 
 Where a is the tag and href is an attribute which holds the link charlie is interested in. The text name is HackerRank.
 Charlie notices that the text name can sometimes be hidden within multiple tags
