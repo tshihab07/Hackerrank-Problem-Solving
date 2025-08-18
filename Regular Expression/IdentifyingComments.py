@@ -20,6 +20,7 @@ comments = re.findall(r'//.*|/\*[\s\S]*?\*/', code)
 for comment in comments:
     if comment.startswith('//'):
         print(comment)
+    
     else:
         # Remove leading whitespace from each line of multi-line comment
         print('\n'.join(line.lstrip() for line in comment.split('\n')))
