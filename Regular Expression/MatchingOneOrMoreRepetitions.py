@@ -8,7 +8,7 @@ After that, S should have 1 or more lowercase letters.
 S should end with 1 or more uppercase letters
 """
 
-Regex_Pattern = r'^\d+[A-Z]+[a-z]+$'	# Do not delete 'r'.
+Regex_Pattern = r'^\d+[A-Z]+[a-z]+$'
 
 import re
 
