@@ -8,7 +8,7 @@ S should end in s.
 
 
 # \b indicates the boundary of the pattern
-Regex_Pattern = r'\b[a-zA-Z]*s\b'	# Do not delete 'r'.
+Regex_Pattern = r'\b[a-zA-Z]*s\b'
 
 import re
 
