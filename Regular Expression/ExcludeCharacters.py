@@ -1,6 +1,7 @@
 """ Title: Excluding Specific Characters
 
-Task: You have a test string S.
+Task:
+You have a test string S.
 The task is to write a regex that will match S with following conditions:
 
 - S must be of length: 6
