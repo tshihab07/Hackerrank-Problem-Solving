@@ -3,7 +3,7 @@ Task: You have a test string S. The task is to match the pattern xxXxxXxxxx
 Here, x denotes digit characters and X denotes the non-digit character
 """
 
-Regex_Pattern = r"\d{2}\D\d{2}\D\d{4}"	# Do not delete 'r'.
+Regex_Pattern = r"\d{2}\D\d{2}\D\d{4}"
 
 import re
 
