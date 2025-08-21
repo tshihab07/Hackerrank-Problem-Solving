@@ -8,7 +8,7 @@ The first 40 characters should consist of letters(both lowercase and uppercase),
 The last 5 characters should consist of odd digits or whitespace characters.
 """
 
-Regex_Pattern = r'^[a-zA-Z02468]{40}[13579\s]{5}$'	# Do not delete 'r'.
+Regex_Pattern = r'^[a-zA-Z02468]{40}[13579\s]{5}$'
 
 import re
 
