@@ -49,9 +49,6 @@ def detect_language(code_lines):
     c_score = count_matches(c_patterns)
     python_score = count_matches(python_patterns)
 
-    # Debug (comment out in final submission)
-    # print(f"Java score: {java_score}, C score: {c_score}, Python score: {python_score}")
-
     scores = {'Java': java_score, 'C': c_score, 'Python': python_score}
 
     # Choose max score language; if tie, priority order Java > C > Python
