@@ -4,7 +4,7 @@ S must start with a digit X and end with . symbol
 S should be 6 characters long only
 """
 
-Regex_Pattern = r"^\d\w{4}\.$"	# Do not delete 'r'.
+Regex_Pattern = r"^\d\w{4}\.$"
 
 import re
 
