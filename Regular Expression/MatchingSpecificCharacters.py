@@ -12,7 +12,7 @@ The task is to write a regex that will match S with following conditions:
 
 """
 
-Regex_Pattern = r'^[123][120][xs0][30Aa][xsu][.,]$'	# Do not delete 'r'.
+Regex_Pattern = r'^[123][120][xs0][30Aa][xsu][.,]$'
 
 import re
 
