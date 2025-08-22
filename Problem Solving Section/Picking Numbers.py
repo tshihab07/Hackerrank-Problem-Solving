@@ -9,7 +9,6 @@ There are two subarrays meeting the criterion: [1, 1, 2, 2] and [4, 4, 5, 5, 5].
 """
 
 def pickingNumbers(a):
-    # Write your code here
     freq = [0] * 101
 
     for num in a:
