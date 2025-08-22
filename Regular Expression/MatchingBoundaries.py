@@ -10,7 +10,7 @@ The matched word must start and end with a word boundary.
 """
 
 
-Regex_Pattern = r'\b[aeiouAEIOU][a-zA-Z]*\b'	# Do not delete 'r'.
+Regex_Pattern = r'\b[aeiouAEIOU][a-zA-Z]*\b'
 
 import re
 
