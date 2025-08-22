@@ -14,7 +14,6 @@ There is one pair of color 1 and one of color 2. There are three odd socks left,
 """
 
 def sockMerchant(n, ar):
-    # Write your code here
     sock_color = {}
     for sock in ar:
         sock_color[sock] = sock_color.get(sock, 0) + 1
