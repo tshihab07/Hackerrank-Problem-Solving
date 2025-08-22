@@ -18,7 +18,6 @@ Determine the chair number occupied by the prisoner who will receive that candy.
 """
 
 def saveThePrisoner(n, m, s):
-    # Write your code here
     last_sweet = (s + m - 1) % n
     
     if last_sweet:
