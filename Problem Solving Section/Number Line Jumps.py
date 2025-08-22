@@ -1,7 +1,6 @@
 import math
 import os
 import random
-import re
 import sys
 
 """ Problem Description:
@@ -18,7 +17,6 @@ x2 = 1
 v2 = 2
 
 After one jump, they are both at x = 3. (x1 + v1 = 2 + 1 . x2 + v2 = 1 + 2). So, the answer is Yes
-
 """
 
 def kangaroo(x1, v1, x2, v2):
