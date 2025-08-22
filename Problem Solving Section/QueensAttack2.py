@@ -8,7 +8,6 @@ import sys
 
 
 def queensAttack(n, k, r_q, c_q, obstacles):
-    # Write your code here
     obstacles = set(map(tuple, obstacles))
     
     moves = [
