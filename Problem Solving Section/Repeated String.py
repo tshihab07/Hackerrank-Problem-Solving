@@ -18,7 +18,6 @@ The function should return 4.
 """
 
 def repeatedString(s, n):
-    # Write your code here
     count_a_in_s = s.count('a')
     full_repeats = n // len(s)
     remainder = n % len(s)
