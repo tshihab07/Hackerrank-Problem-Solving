@@ -19,7 +19,6 @@ Period  Height
 """
 
 def utopianTree(n):
-    # Write your code here
     height = 1
     for i in range(n):
         if i % 2 == 0:
