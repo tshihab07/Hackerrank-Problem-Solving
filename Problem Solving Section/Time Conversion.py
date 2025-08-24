@@ -35,8 +35,6 @@ def timeConversion(s):
     time[0] = hour
     return f"{hour:02d}:{minute:02d}:{second:02d}"
              
-            
-    # Write your code here
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
