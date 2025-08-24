@@ -18,7 +18,6 @@ def staircase(n):
             print("#", end="")
         
         print()
-    # Write your code here
 
 if __name__ == '__main__':
     n = int(input().strip())
