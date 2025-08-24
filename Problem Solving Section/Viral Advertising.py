@@ -21,7 +21,7 @@ def viralAdvertising(n):
     for day in range(n):
         likes = shared // 2
         total_likes += likes
-        shared = likes * 3  # those who liked share with 3 friends
+        shared = likes * 3 
 
     return total_likes
 
