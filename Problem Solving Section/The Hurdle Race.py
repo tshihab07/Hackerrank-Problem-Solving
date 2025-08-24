@@ -13,7 +13,6 @@ If the character can already clear all of the hurdles, return 0.
 """
 
 def hurdleRace(k, height):
-    # Write your code here
     max_dose = [0]
     for item in height:
         if k < item:
