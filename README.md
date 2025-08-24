@@ -1,3 +1,6 @@
 # Hackerrank Problem Solving
 **Author : Md. Tushar Shihab**
-***Data Analyst***
+### Section
+- Problem Solving
+- Regular Expression
+- Python Language
