@@ -23,7 +23,6 @@ In this case, there are two segments meeting her criteria: [2, 2] and [3, 1]
 """
 
 def birthday(s, d, m):
-    # Write your code here
     count = 0
 
     for i in range(len(s) - m + 1):
