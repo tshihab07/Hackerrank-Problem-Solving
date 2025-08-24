@@ -17,7 +17,6 @@ The square integers in this range are 25, 36, and 49. Return 3.
 """
 
 def squares(a, b):
-    # Write your code here
     smallest_perfect_square = math.ceil(math.sqrt(a))
     largest_perfect_square = math.floor(math.sqrt(b))
     total_perfect_square = largest_perfect_square - smallest_perfect_square + 1
