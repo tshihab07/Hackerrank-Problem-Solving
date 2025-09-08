@@ -51,7 +51,7 @@ def detect_language(code_lines):
 
     scores = {'Java': java_score, 'C': c_score, 'Python': python_score}
 
-    # Choose max score language; if tie, priority order Java > C > Python
+    # choose max score language; if tie, priority order Java > C > Python
     max_score = max(scores.values())
     candidates = [lang for lang, score in scores.items() if score == max_score]
 
@@ -59,7 +59,7 @@ def detect_language(code_lines):
         if lang in candidates:
             return lang
 
-# Read multiple lines until EOF
+# read multiple lines until EOF
 code_lines = []
 for line in sys.stdin:
     code_lines.append(line.rstrip('\n'))
