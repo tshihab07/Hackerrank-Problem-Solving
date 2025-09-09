@@ -1,3 +1,10 @@
+""" Problem Description:
+Lexicographical order is often known as alphabetical order when dealing with strings. A string is greater than another string if it comes later in a lexicographically sorted list.
+Given a word, create a new word by swapping some or all of its characters. This new word must meet two criteria:
+- It must be greater than the original word
+- It must be the smallest word that meets the first condition.
+"""
+
 #!/bin/python3
 
 import math
@@ -6,12 +13,6 @@ import random
 import re
 import sys
 
-#
-# Complete the 'biggerIsGreater' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts STRING w as parameter.
-#
 
 def biggerIsGreater(w):
     # Convert string to list for easy manipulation
@@ -52,3 +53,4 @@ if __name__ == '__main__':
         fptr.write(result + '\n')
 
     fptr.close()
+
