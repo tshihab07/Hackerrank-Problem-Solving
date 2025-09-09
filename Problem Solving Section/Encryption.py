@@ -1,3 +1,7 @@
+""" Problem Description:
+An English text needs to be encrypted using the following encryption scheme.
+First, the spaces are removed from the text. Let L be the length of this text.
+"""
 #!/bin/python3
 
 import math
@@ -37,3 +41,4 @@ if __name__ == '__main__':
     fptr.write(result + '\n')
 
     fptr.close()
+
