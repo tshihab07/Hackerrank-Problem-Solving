@@ -6,14 +6,7 @@ import random
 import re
 import sys
 
-#
-# Complete the 'timeInWords' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts following parameters:
-#  1. INTEGER h
-#  2. INTEGER m
-#
+
 
 def timeInWords(h, m):
     # Write your code here
