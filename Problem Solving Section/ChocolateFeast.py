@@ -6,15 +6,11 @@ import random
 import re
 import sys
 
-#
-# Complete the 'chocolateFeast' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER n
-#  2. INTEGER c
-#  3. INTEGER m
-#
+""" Problem Description:
+Little Bobby loves chocolate. He frequently goes to his favorite 5 & 10 store, Penny Auntie, to buy them.
+They are having a promotion at Penny Auntie. If Bobby saves enough wrappers, he can turn them in for a free chocolate.
+"""
+
 
 def chocolateFeast(n, c, m):
     # Write your code here
