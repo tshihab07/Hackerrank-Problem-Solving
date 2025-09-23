@@ -3,13 +3,10 @@
 import math
 import os
 import random
-import re
 import sys
 
 
-
 def timeInWords(h, m):
-    # Write your code here
     # Map numbers to words (0 to 29 is enough)
     nums = [
         "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
