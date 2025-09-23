@@ -6,14 +6,12 @@ import random
 import re
 import sys
 
-#
-# Complete the 'serviceLane' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts following parameters:
-#  1. INTEGER n
-#  2. 2D_INTEGER_ARRAY cases
-#
+""" Problem Description:
+A driver is driving on the freeway. The check engine light of his vehicle is on, and the driver wants to get service immediately.
+Luckily, a service lane runs parallel to the highway. It varies in width along its length.
+We will be given an array of widths at points along the road (indices), then a list of the indices of entry and exit points.
+Considering each entry and exit point pair, calculate the maximum size vehicle that can travel that segment of the service lane safely.
+"""
 
 def serviceLane(n, cases):
     # Write your code here
