@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -14,7 +12,6 @@ Considering each entry and exit point pair, calculate the maximum size vehicle t
 """
 
 def serviceLane(n, cases):
-    # Write your code here
     results = []
     for i, j in cases:
         min_width = min(width[i:j+1])
