@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -13,7 +11,6 @@ They are having a promotion at Penny Auntie. If Bobby saves enough wrappers, he 
 
 
 def chocolateFeast(n, c, m):
-    # Write your code here
     chocolates = n // c  # initial chocolates
     wrappers = chocolates
     
