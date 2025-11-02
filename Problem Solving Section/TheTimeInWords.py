@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -29,7 +27,7 @@ def timeInWords(h, m):
         return f"quarter to {next_hour}"
     elif m < 30:
         return f"{nums[m]} minutes past {nums[h]}"
-    else:  # m > 30 and m != 45
+    else:
         remaining = 60 - m
         next_hour = nums[h + 1] if h < 12 else "one"
         if remaining == 1:
