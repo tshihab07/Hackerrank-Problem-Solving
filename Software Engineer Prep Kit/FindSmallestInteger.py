@@ -1,5 +1,3 @@
-#!/bin/python3
-
 """ Problem Description:
 # Find the Smallest Missing Positive Integer
 Given an unsorted array of integers, find the smallest positive integer not present in the array in O(n) time and O(1) extra space.
