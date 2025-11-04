@@ -3,8 +3,6 @@ You are asked to ensure that the first and last names of people begin with a cap
 For example, alison heck should be capitalised correctly as Alison Heck.
 """
 
-#!/bin/python3
-
 import math
 import os
 import random
