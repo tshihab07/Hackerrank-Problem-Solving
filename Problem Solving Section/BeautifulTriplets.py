@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -8,7 +6,6 @@ import sys
 
 
 def beautifulTriplets(d, arr):
-    # Write your code here
     s = set(arr)  # for O(1) lookups
     count = 0
     for x in arr:
