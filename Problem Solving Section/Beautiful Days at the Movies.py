@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import os
 
 """ Problem Description:
@@ -16,7 +14,6 @@ Return the number of beautiful days in the range.
 """
 
 def beautifulDays(i, j, k):
-    # Write your code here
     day_count = 0
     for day in range(i, j+1):
         if abs(day - int(str(day)[::-1])) % k == 0:
