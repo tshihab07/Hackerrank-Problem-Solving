@@ -14,7 +14,6 @@ The first 3 students arrived on. The last 2 were late. The threshold is 3 studen
 """
 
 def angryProfessor(k, a):
-    # Write your code here
     threshold = 0
     
     for i in a:
