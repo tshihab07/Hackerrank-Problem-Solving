@@ -6,6 +6,18 @@ import random
 import re
 import sys
 
+""" Problem Description:
+An integer d is a divisor of an integer n if the remainder of n % d = 0.
+
+- There are n chapters in Lisa's workbook, numbered from 1 to n.
+- The ith chapter has arr[i] problems, numbered from 1 to arr[i].
+- Each page can hold up to k problems. Only a chapter's last page of exercises may contain fewer than k problems.
+- Each new chapter starts on a new page, so a page will never contain problems from more than one chapter.
+- The page number indexing starts at 1.
+
+Given the details for Lisa's workbook, can you count its number of special problems?
+"""
+
 
 def workbook(n, k, arr):
     page = 1
