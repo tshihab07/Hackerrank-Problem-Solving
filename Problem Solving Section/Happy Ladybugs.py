@@ -19,30 +19,24 @@ For each game, return YES if all the ladybugs can be made happy through some num
 """
 
 def happyLadybugs(b):
-    
     n = len(b)
-    # Count frequencies
     freq = {}
     for ch in b:
         freq[ch] = freq.get(ch, 0) + 1
     
-    # Any color (not '_') with count 1 → impossible
     for ch in freq:
         if ch != '_' and freq[ch] == 1:
             return "NO"
     
-    # If there's at least one '_', we can rearrange → YES
     if '_' in freq:
         return "YES"
     
-    # No empty cells: check if already happy
     for i in range(n):
         if b[i] == '_':
             continue
-        left = (i > 0 and b[i-1] == b[i])
-        right = (i < n-1 and b[i+1] == b[i])
-        
-        if not (left or right):
+        left_ok = i > 0 and b[i-1] == b[i]
+        right_ok = i < n-1 and b[i+1] == b[i]
+        if not (left_ok or right_ok):
             return "NO"
     
     return "YES"
