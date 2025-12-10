@@ -6,14 +6,22 @@ import random
 import re
 import sys
 
-#
-# Complete the 'gridSearch' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts following parameters:
-#  1. STRING_ARRAY G
-#  2. STRING_ARRAY P
-#
+""" Description: Given an array of strings of digits, try to find the occurrence of a given pattern of digits.
+In the grid and pattern arrays, each string represents a row in the grid. For example, consider the following grid:
+1234567890  
+0987654321  
+1111111111  
+1111111111  
+2222222222  
+The pattern array is:
+
+876543  
+111111  
+111111
+The pattern begins at the second row and the third column of the grid and continues in the following two rows.
+The pattern is said to be present in the grid. The return value should be YES or NO, depending on whether the pattern is found.
+In this case, return YES.
+"""
 
 def gridSearch(G, P):
     R = len(G)
