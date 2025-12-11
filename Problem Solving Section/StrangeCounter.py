@@ -6,12 +6,13 @@ import random
 import re
 import sys
 
-#
-# Complete the 'strangeCounter' function below.
-#
-# The function is expected to return a LONG_INTEGER.
-# The function accepts LONG_INTEGER t as parameter.
-#
+""" Description: There is a strange counter.
+At the first second, it displays the number 3. Each second, the number displayed by decrements by 1 until it reaches 1.
+In next second, the timer resets to 2 x the initial number for the prior cycle and continues counting down.
+The diagram below shows the counter values for each time  in the first three cycles:
+
+
+"""
 
 def strangeCounter(t):
     start_time = 1
