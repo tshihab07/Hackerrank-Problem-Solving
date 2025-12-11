@@ -6,14 +6,15 @@ import random
 import re
 import sys
 
-#
-# Complete the 'absolutePermutation' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts following parameters:
-#  1. INTEGER n
-#  2. INTEGER k
-#
+""" Description: We define P to be a permutation of the first n natural numbers in the range [1, n].
+Let pos[i] denote the value at position i in permutation P using 1-based indexing.
+
+P is considered to be an absolute permutation if |pos[i] - i| = k holds true for every i ε [1, n].
+
+Given n and k, print the lexicographically smallest absolute permutation P. If no absolute permutation exists, print -1.
+"""
+
+
 
 def absolutePermutation(n, k):
     if k == 0:
