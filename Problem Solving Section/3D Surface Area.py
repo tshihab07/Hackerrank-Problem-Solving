@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 """ Description: Madison is a little girl who is fond of toys.
 Her friend Mason works in a toy manufacturing factory .
 Mason has a 2D board A of size H x W with H rows and W columns.
@@ -14,6 +15,7 @@ The cell (i, j) has an integer A[i, j] written on it. To create the toy Mason st
 
 Given the description of the board showing the values of A[i, j]
 and that the price of the toy is equal to the 3d surface area find the price of the toy."""
+
 
 def surfaceArea(A):
     H = len(A)
