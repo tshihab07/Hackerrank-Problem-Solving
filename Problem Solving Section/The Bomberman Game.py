@@ -1,5 +1,3 @@
-
-
 #!/bin/python3
 
 import math
@@ -19,14 +17,16 @@ Bomberman is immune to bombs, so he can move freely throughout the grid. Here's 
 
 - Initially, Bomberman arbitrarily plants bombs in some of the cells, the initial state.
 - After one second, Bomberman does nothing.
-- After one more second, Bomberman plants bombs in all cells without bombs, thus filling the whole grid with bombs. No bombs detonate at this point.
+- After one more second, Bomberman plants bombs in all cells without bombs, thus filling the whole grid with bombs.
+No bombs detonate at this point.
 - After one more second, any bombs planted exactly three seconds ago will detonate. Here, Bomberman stands back and observes.
 - Bomberman then repeats steps 3 and 4 indefinitely.
-Note that during every second Bomberman plants bombs, the bombs are planted simultaneously (i.e., at the exact same moment), and any bombs planted at the same time will detonate at the same time.
+Note that during every second Bomberman plants bombs, the bombs are planted simultaneously (i.e., at the exact same moment),
+and any bombs planted at the same time will detonate at the same time.
 
-Given the initial configuration of the grid with the locations of Bomberman's first batch of planted bombs, determine the state of the grid after  seconds.
-
-For example, if the initial grid looks like:"""
+Given the initial configuration of the grid with the locations of Bomberman's first batch of planted bombs,
+determine the state of the grid after N seconds.
+"""
 
 def bomberMan(n, grid):
     r = len(grid)
@@ -47,6 +47,7 @@ def bomberMan(n, grid):
     for i in range(r):
         row = ''.join('.' if destroy[i][j] else 'O' for j in range(c))
         res.append(row)
+    
     return res
 
 if __name__ == '__main__':
