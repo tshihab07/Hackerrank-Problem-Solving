@@ -17,18 +17,17 @@ If the player's scores are 70,  80 and ,  105, their rankings after each game ar
 
 
 def climbingLeaderboard(ranked, player):
-    # Write your code here
-    # Step 1: Remove duplicates and sort in descending order
+    # remove duplicates and sort in descending order
     unique_ranks = sorted(set(ranked), reverse=True)
 
     results = []
     index = len(unique_ranks) - 1  # Start from the lowest rank
 
     for score in player:
-        # Step 2: Move up while player score is >= ranked score
+        # move up while player score is >= ranked score
         while index >= 0 and score >= unique_ranks[index]:
             index -= 1
-        # Step 3: Player's rank is index+2 (because rank is 1-based, and index moved past)
+        # player's rank is index+2 (because rank is 1-based, and index moved past)
         results.append(index + 2)
 
     return results
