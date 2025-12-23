@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -20,7 +18,6 @@ The shortest stick length is 1, so we cut all sticks by 1.
 """
 
 def cutTheSticks(arr):
-    # Write your code here
     result = []
     
     while arr:
