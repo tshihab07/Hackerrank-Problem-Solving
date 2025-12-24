@@ -28,27 +28,45 @@ Given the initial configuration of the grid with the locations of Bomberman's fi
 determine the state of the grid after N seconds.
 """
 
-def bomberMan(n, grid):
+def explode(grid):
     r = len(grid)
     c = len(grid[0])
-    # mark destroyed cells
-    destroy = [[False]*c for _ in range(r)]
-    dirs = [(0,1),(0,-1),(1,0),(-1,0)]
+    result = [['O'] * c for _ in range(r)]
+
     for i in range(r):
         for j in range(c):
             if grid[i][j] == 'O':
-                destroy[i][j] = True
-                for di, dj in dirs:
-                    ni, nj = i+di, j+dj
+                result[i][j] = '.'
+                for di, dj in [(0,1), (0,-1), (1,0), (-1,0)]:
+                    ni, nj = i + di, j + dj
                     if 0 <= ni < r and 0 <= nj < c:
-                        destroy[ni][nj] = True
-    # Build result
-    res = []
-    for i in range(r):
-        row = ''.join('.' if destroy[i][j] else 'O' for j in range(c))
-        res.append(row)
-    
-    return res
+                        result[ni][nj] = '.'
+
+    return [''.join(row) for row in result]
+
+
+def bomberMan(n, grid):
+    r = len(grid)
+    c = len(grid[0])
+
+    if n == 1:
+        return grid
+
+    if n % 2 == 0:
+        return ['O' * c for _ in range(r)]
+
+    # First explosion
+    g1 = explode(grid)
+
+    # Second explosion
+    g2 = explode(g1)
+
+    if n % 4 == 3:
+        return g1
+    else:  # n % 4 == 1
+        return g2
+
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
@@ -73,3 +91,4 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+
