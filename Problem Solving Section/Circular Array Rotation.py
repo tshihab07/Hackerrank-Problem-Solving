@@ -15,7 +15,6 @@ For each array, perform a number of right circular rotations and return the valu
 
 
 def circularArrayRotation(a, k, queries):
-    # Write your code here
     n = len(a)
     k = k % n
     rotated = a[-k:] + a[:-k]
