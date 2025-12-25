@@ -14,7 +14,6 @@ Given n and p, find and print the minimum number of pages that must be turned in
 """
 
 def pageCount(n, p):
-    # Write your code here
     front_turn = p // 2
     back_turn = (n // 2) - (p // 2)
     
