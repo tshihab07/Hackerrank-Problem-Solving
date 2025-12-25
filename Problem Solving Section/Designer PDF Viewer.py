@@ -9,7 +9,6 @@ Using the letter heights given, determine the area of the rectangle highlight in
 """
 
 def designerPdfViewer(h, word):
-    # Write your code here
     max_height = 0
     for char in word:
         index = ord(char) - ord('a')  # Get index in h
