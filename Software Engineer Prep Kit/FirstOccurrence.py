@@ -2,8 +2,6 @@
 Given a sorted array of integers that may contain duplicates,
 return the index of the first occurrence of a target value or -1 if not found."""
 
-#!/bin/python3
-
 import math
 import os
 import random
