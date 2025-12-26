@@ -15,14 +15,14 @@ def isAlphabeticPalindrome(code):
     left, right = 0, len(code) - 1
     
     while left < right:
-        # Skip non-letter characters from left
+        # skip non-letter characters from left
         while left < right and not code[left].isalpha():
             left += 1
-        # Skip non-letter characters from right
+        # skip non-letter characters from right
         while left < right and not code[right].isalpha():
             right -= 1
         
-        # Compare case-insensitively
+        # compare case-insensitively
         if code[left].lower() != code[right].lower():
             return False
         
