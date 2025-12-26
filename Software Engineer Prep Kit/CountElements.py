@@ -19,8 +19,8 @@ def countResponseTimeRegressions(responseTimes):
     running_sum = 0
     
     for i in range(1, len(responseTimes)):
-        running_sum += responseTimes[i - 1]          # sum of elements before index i
-        previous_avg = running_sum / i      # average of first i elements (indices 0 to i-1)
+        running_sum += responseTimes[i - 1]             # sum of elements before index i
+        previous_avg = running_sum / i                  # average of first i elements (indices 0 to i-1)
         if responseTimes[i] > previous_avg:
             count += 1
             
