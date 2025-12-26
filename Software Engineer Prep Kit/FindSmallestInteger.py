@@ -15,7 +15,7 @@ def findSmallestMissingPositive(orderNumbers):
     
     for i in range(n):
         while 1 <= orderNumbers[i] <= n and orderNumbers[orderNumbers[i] - 1] != orderNumbers[i]:
-            # Swap orderNumbers[i] to its correct position
+            # swap orderNumbers[i] to its correct position
             correct_index = orderNumbers[i] - 1
             orderNumbers[i], orderNumbers[correct_index] = orderNumbers[correct_index], orderNumbers[i]
     
