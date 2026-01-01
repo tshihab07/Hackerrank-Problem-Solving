@@ -1,5 +1,4 @@
-""" Problem Description:
-# Count Elements Greater Than Previous Average
+""" Problem Description: Count Elements Greater Than Previous Average
 Given an array of positive integers,
 return the number of elements that are strictly greater than the average of all previous elements.
 Skip the first element."""
