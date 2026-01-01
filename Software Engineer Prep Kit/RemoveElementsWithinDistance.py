@@ -4,6 +4,8 @@ Use constant extra space and single pass with two pointers."""
 
 #!/bin/python3
 
+#!/bin/python3
+
 import math
 import os
 import random
@@ -15,10 +17,11 @@ def debounceTimestamps(timestamps, K):
     if not timestamps:
         return 0
 
-    write = 1                   # index of next position to write a valid element
+    write = 1  # index where next valid element will be written
 
     for read in range(1, len(timestamps)):
-        if timestamps[read] - timestamps[write - 1] > K:
+        # Keep element only if it is at least K away
+        if timestamps[read] - timestamps[write - 1] >= K:
             timestamps[write] = timestamps[read]
             write += 1
 
