@@ -1,8 +1,6 @@
 """ Title: Maximum Number of Non-Overlapping Intervals
 Given an array of intervals where each interval has a start and end time, return the maximum number of non-overlapping intervals."""
 
-#!/bin/python3
-
 import math
 import os
 import random
