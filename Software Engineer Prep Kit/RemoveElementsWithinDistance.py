@@ -2,10 +2,6 @@
 remove in-place any element that is within K of the previous kept element and return the new length.
 Use constant extra space and single pass with two pointers."""
 
-#!/bin/python3
-
-#!/bin/python3
-
 import math
 import os
 import random
