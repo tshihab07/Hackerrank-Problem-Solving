@@ -1,8 +1,6 @@
 """ Title: Target Index Search
 Given a sorted array of distinct integers and a target value, return the index of the target or -1 if not found. """
 
-#!/bin/python3
-
 import math
 import os
 import random
