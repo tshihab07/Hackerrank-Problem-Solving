@@ -2,8 +2,6 @@
 Given the head of a singly linked list and an integer k,
 remove the k-th node from the end in one traversal and return the new head. If k is invalid, return the original list."""
 
-#!/bin/python3
-
 import math
 import os
 import random
@@ -32,6 +30,7 @@ class SinglyLinkedList:
 
         self.tail = node
 
+
 def print_singly_linked_list(node, sep):
     while node:
         print(node.data, end='')
@@ -40,7 +39,6 @@ def print_singly_linked_list(node, sep):
 
         if node:
             print(sep, end='')
-
 
 
 def removeKthNodeFromEnd(head, k):
@@ -65,6 +63,7 @@ def removeKthNodeFromEnd(head, k):
     
     second.next = second.next.next
     return head
+
 
 if __name__ == '__main__':
     head_count = int(input().strip())
