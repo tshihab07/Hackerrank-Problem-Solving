@@ -1,8 +1,6 @@
 """ Title: Min-Tracking Stack Implementation
 Implement a stack that supports push, pop, top, and getMin operations in O(1) time, where getMin returns the minimum element."""
 
-#!/bin/python3
-
 import math
 import os
 import random
