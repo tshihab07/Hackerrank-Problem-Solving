@@ -2,7 +2,6 @@
 Given a sorted array of positive integers and a target value,
 count the number of pairs (i, j) where i < j and array[i] + array[j] <= target.
 """
-#!/bin/python3
 
 import math
 import os
