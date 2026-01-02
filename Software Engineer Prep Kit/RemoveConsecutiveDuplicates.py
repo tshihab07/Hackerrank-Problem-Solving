@@ -3,8 +3,6 @@ Write a function "deleteDuplicates" that removes consecutive duplicate nodes in-
 retaining only the first node of each code. Return the head of the resulting list.
 """
 
-#!/bin/python3
-
 import math
 import os
 import random
