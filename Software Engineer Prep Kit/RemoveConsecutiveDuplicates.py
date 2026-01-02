@@ -29,6 +29,7 @@ class SinglyLinkedList:
 
         self.tail = node
 
+
 def print_singly_linked_list(node, sep):
     while node:
         print(node.data, end='')
