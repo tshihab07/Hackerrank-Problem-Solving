@@ -3,8 +3,6 @@ Given an array of positive integers and a target integer,
 return the indices of two elements that sum to the target or [-1, -1] if no such pair exists.
 """
 
-#!/bin/python3
-
 import math
 import os
 import random
