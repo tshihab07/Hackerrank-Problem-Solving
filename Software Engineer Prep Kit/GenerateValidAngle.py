@@ -2,8 +2,6 @@
 Given n, return all valid sequences of n pairs of '<' and '>' with proper nesting.
 """
 
-#!/bin/python3
-
 import math
 import os
 import random
