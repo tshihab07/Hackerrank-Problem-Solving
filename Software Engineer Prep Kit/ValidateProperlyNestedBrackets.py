@@ -2,8 +2,6 @@
 Given a string, check if all brackets ('()', '{}', '[]') are properly matched and nested. Return 1 if valid, otherwise return 0.
 """
 
-#!/bin/python3
-
 import math
 import os
 import random
