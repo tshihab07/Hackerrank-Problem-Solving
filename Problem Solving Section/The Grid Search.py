@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -29,10 +27,10 @@ def gridSearch(G, P):
     r = len(P)
     c = len(P[0])
     
-    # Iterate over all possible top-left positions
+    # iterate over all possible top-left positions
     for i in range(R - r + 1):
         for j in range(C - c + 1):
-            # Check if pattern matches starting at (i, j)
+            # check if pattern matches starting at (i, j)
             match = True
             
             for di in range(r):
