@@ -21,14 +21,12 @@ x=4⇒p[5],p[1]=5⇒p[p[1]]=4x = 4 -> p[5], p[1] = 5 -> p[p[1]] = 4x=4⇒p[5],p[
 x=5⇒p[1],p[3]=1⇒p[p[3]]=5x = 5 -> p[1], p[3] = 1 -> p[p[3]] = 5x=5⇒p[1],p[3]=1⇒p[p[3]]=5
 
 The values for y are [4,2,5,1,3]
-
-
 """
 
 def permutationEquation(p):
 
     result = []
-    # Create a value-to-index map for fast lookup
+    # create a value-to-index map for fast lookup
     index_map = {value: idx + 1 for idx, value in enumerate(p)}
 
     for x in range(1, len(p) + 1):
