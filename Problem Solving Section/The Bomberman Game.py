@@ -61,7 +61,8 @@ def bomberMan(n, grid):
 
     if n % 4 == 3:
         return g1
-    else:  # n % 4 == 1
+    
+    else:
         return g2
 
 
