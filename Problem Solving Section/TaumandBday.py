@@ -16,8 +16,8 @@ Determine the minimum cost of Diksha's gifts.
 """
 
 def taumBday(b, w, bc, wc, z):
-    cost_black = min(bc, wc + z)  # Either buy black directly or buy white and convert
-    cost_white = min(wc, bc + z)  # Either buy white directly or buy black and convert
+    cost_black = min(bc, wc + z)  # either buy black directly or buy white and convert
+    cost_white = min(wc, bc + z)  # either buy white directly or buy black and convert
     
     return b * cost_black + w * cost_white
 
